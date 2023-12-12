@@ -1,17 +1,18 @@
-import './App.css'
-import Footer from "./Footer.jsx";
-import Card from "./Card.jsx";
-import Header from "./Header.jsx";
-import Navigate from "./Navigate.jsx";
+import Footer from "./UI/MainUI/Footer.jsx";
+import Navigate from "./UI/MainUI/Navigate.jsx";
+import ExperienceCards from "./UI/MainUI/ExperienceCards.jsx";
+import Contact from "./UI/MainUI/Contact.jsx";
+import Projects from "./UI/MainUI/Projects.jsx";
+import AfterHours from "./UI/MainUI/AfterHours.jsx";
 
 function App() {
     return (
         <>
             <Navigate/>
-            <Header/>
-            <Card/>
-            <Card/>
-            <Card/>
+            <Contact/>
+            <ExperienceCards/>
+            <Projects/>
+            <AfterHours/>
             <Footer/>
         </>
     )
