@@ -1,7 +1,50 @@
+.container {
+    padding: 1px;
+}
+
 .card {
-    background-color: green;
+    background-color: #0e6431;
     flex: auto;
 }
 .footer {
-    background-color: aqua;
+    background-color: #0e4d3f;
+}
+
+.h1_header {
+    padding: 60px;
+    text-align: center;
+    background: #0e4d3f;
+    color: white;
+    font-size: 30px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    display: flex;
+}
+
+ul {
+    /*list-style-type: none;*/
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    margin: 5px 0;
+}
+
+button {
+    width: 100%;
+    background-color: #11886d;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0e4d3f;
 }

@@ -1,7 +1,7 @@
 function Header() {
     return (
         <>
-            <h1 className='h1_header'>CV-Resume</h1>
+            <h1 className='h1_header'>my resume</h1>
         </>
     )
 }
