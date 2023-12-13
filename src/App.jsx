@@ -8,14 +8,12 @@ import AfterHours from "./UI/MainUI/AfterHours.jsx";
 function App() {
     return (
         <>
-            <div className='container'>
             <Navigate/>
             <Contact/>
             <ExperienceCards/>
             <Projects/>
             <AfterHours/>
             <Footer/>
-            </div>
         </>
     )
 }

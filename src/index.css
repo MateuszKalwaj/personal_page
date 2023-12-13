@@ -18,14 +18,20 @@
     font-size: 30px;
 }
 
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+}
+
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: 8px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.4);
+    padding: 2rem;
+    border-radius: 6px;
+    background-color: #0f5e4d;
     display: flex;
 }
 
 ul {
-    /*list-style-type: none;*/
     padding: 0;
     width: 100%;
     display: flex;
@@ -48,3 +54,8 @@ button {
 button:hover {
     background-color: #0e4d3f;
 }
+
+#img-logo {
+    height: 60px;
+}
+
