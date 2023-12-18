@@ -1,14 +1,16 @@
 import Project from "../Project.jsx";
 import {useEffect, useRef} from "react";
+import './Projects.css';
 
-    function Projects({ refToScroll }) {
+    function Projects({ refToScroll, setRefToScroll }) {
         const myRef = useRef(null);
 
         useEffect(() => {
             if (refToScroll === 'projects' && myRef.current) {
                 myRef.current.scrollIntoView({ behavior: 'smooth' });
+                setRefToScroll(null);
             }
-        }, [refToScroll]);
+        }, [refToScroll, setRefToScroll]);
 
     return (
         <div ref={myRef} className='projects'>

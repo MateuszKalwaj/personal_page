@@ -1,15 +1,16 @@
 import Card from "../Card.jsx";
 import {JOBS} from "../../data.js";
 import {useEffect, useRef} from "react";
-function ExperienceCards({refToScroll}) {
+function ExperienceCards({refToScroll, setRefToScroll}) {
 
     const myRef = useRef(null);
 
     useEffect(() => {
         if (refToScroll === 'experience' && myRef.current) {
             myRef.current.scrollIntoView({ behavior: 'smooth' });
+            setRefToScroll(null);
         }
-    }, [refToScroll]);
+    }, [refToScroll, setRefToScroll]);
 
     return (
         <>

@@ -13,8 +13,8 @@ function App() {
         <>
             <Navigate setRefToScroll={setRefToScroll}/>
             <Contact/>
-            <ExperienceCards refToScroll={refToScroll}/>
-            <Projects refToScroll={refToScroll}/>
+            <ExperienceCards refToScroll={refToScroll} setRefToScroll={setRefToScroll}/>
+            <Projects refToScroll={refToScroll} setRefToScroll={setRefToScroll}/>
             <AfterHours/>
             <Footer/>
         </>
