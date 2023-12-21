@@ -1,15 +1,21 @@
 function Contact() {
     return (
-        <section>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Praesent ac magna et magna commodo bibendum et id dui.
-            Aenean gravida quam sed ex porttitor, eu pharetra eros bibendum.
-            Morbi sollicitudin nisl vitae ipsum volutpat dapibus.
-            Suspendisse ipsum libero, tempor ac justo sed, venenatis aliquet nisl.
-            Morbi finibus tellus ut risus tempor rhoncus. Praesent at varius ante, eget varius massa.
-            Donec ac magna et elit porta tincidunt. Integer luctus velit ut massa accumsan ultricies.
-            Cras eget lacinia risus. Aenean rutrum suscipit pellentesque.
-            Proin vitae lacus maximus, tristique orci in, euismod mauris.
-            Integer non eleifend lectus. Pellentesque bibendum arcu nibh, vitae congue nulla pharetra eget.</section>
+        <section>I am a software developer with four years of commercial
+                experience focused on JavaScript, TypeScript, and React.
+                I have been working for Carfax US for the last few years where I actively contributed to a broad
+                spectrum of projects.
+                <br/>
+                <br/>
+                During this time, we managed to develop existing solutions and create new products
+                that brought real income. In addition, I also dealt with more internal needs, such as adapting
+                Accessibility to WCAG requirements or developing the company's system design.
+                <br/>
+                <br/>
+                Currently, I am a freelancer, have my first clients and I am doing my work to provide products of
+                the highest quality and, above all, in accordance with the requirements. In addition,
+                I teach the basics of web development and help people enter the IT industry.
+                <br/>
+        </section>
     )
 }
 
