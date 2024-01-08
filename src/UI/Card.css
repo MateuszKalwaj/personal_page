@@ -1,0 +1,37 @@
+.card {
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.4);
+    padding: 2rem;
+    border-radius: 6px;
+    background-color: #0f5e4d;
+    display: flex;
+    align-items: center;
+
+}
+
+.img-logo {
+    height: 60px;
+    padding-right: 5px;
+}
+
+.img-logo_alternative {
+    height: 60px;
+    padding-left: 5px;
+}
+
+.card-company {
+    padding: 3px 3px 3px 10px;
+
+}
+
+.card-title {
+    padding: 3px 3px 3px 10px;
+
+}
+
+.card-description {
+    padding: 3px 3px 3px 10px;
+}
+
+.card-technologies {
+    padding: 3px 3px 3px 10px;
+}

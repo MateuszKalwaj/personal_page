@@ -1,0 +1,10 @@
+.experience {
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+}

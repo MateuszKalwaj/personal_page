@@ -1,12 +1,14 @@
-function Card({image, company, title, description, technologies}) {
+import './Card.css';
+function Card({image,image_alternative, company, title, description, technologies}) {
     return (
         <>
             <li className='card'>
-                <img id='img-logo' src={image} alt=''/>
-                <h2>{company}</h2>
-                <h3>{title}</h3>
-                <p>{description}</p>
-                <p>{technologies}</p>
+                <img className='img-logo' src={image} alt=''/>
+                <img className='img-logo_alternative' src={image_alternative} alt=''/>
+                <h2 className='card-company'>{company}</h2>
+                <h3 className='card-title'>{title}</h3>
+                <p className='card-description'>{description}</p>
+                <p className='card-technologies'>{technologies}</p>
             </li>
         </>
     )

@@ -18,19 +18,6 @@
     font-size: 30px;
 }
 
-.experience {
-    display: flex;
-    justify-content: space-between;
-}
-
-.card {
-    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.4);
-    padding: 2rem;
-    border-radius: 6px;
-    background-color: #0f5e4d;
-    display: flex;
-}
-
 ul {
     padding: 0;
     width: 100%;
@@ -40,10 +27,5 @@ ul {
 
 li {
     margin: 5px 0;
-}
-
-
-#img-logo {
-    height: 60px;
 }
 
