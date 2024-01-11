@@ -7,14 +7,17 @@ export const JOBS = [
         company: 'Carfax / S&P Global',
         title: 'Associate Software Engineer',
         description: 'work work work lorem ipsum work',
-        technologies: 'ReactJS, JavaScript, TypeScript, AWS, Java'
+        technologies: ['ReactJS', 'JavaScript', 'TypeScript', 'AWS', 'Java']
     },
     {
         image: carfaxlogo,
-        image_alternative: splogo,
-        company: 'Carfax / S&P Global',
-        title: 'Associate Software Engineer',
-        description: 'work work work lorem ipsum work',
+        company: 'Freelancer',
+        title: 'Web Developer & JS/ReactJS Teacher',
+        description: ['Customer acquisition, collecting requirements and setting a budget',
+            'Rewriting legacy code into modern solutions',
+            'Creating new functionalities on existing websites',
+            'In spare time, teach JavaScript/React to people who want to enter the IT industry',
+            'Tutoring for IT students'],
         technologies: 'ReactJS, JavaScript, TypeScript, AWS, Java'
     }
 ]

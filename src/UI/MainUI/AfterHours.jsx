@@ -1,9 +1,8 @@
-import Card from "../Card.jsx";
-
 function AfterHours() {
+
     return (
         <>
-            <div>
+            <div className='after-hours' id="after-hours">
                 <li>Hobby_1</li>
                 <li>Hobby_2</li>
                 <li>Hobby_3</li>
